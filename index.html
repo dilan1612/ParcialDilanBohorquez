@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>HTML</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+  
+</head>
+
+<body>
+
+    
+
+
+
+<form>
+
+    <h1>REGISTRO</h1>
+
+
+    <div class="form-group">
+
+
+        <label for="apellidos">Apellidos:</label>
+       
+        <input type="text"   class="form-control" id="apellidos" name="apellidos" pattern="[A-Za-z ]+" required><br><br>
+
+        <label for="nombres">Nombres:</label>
+        <input type="text"  class="form-control"  id="nombres" name="nombres" pattern="[A-Za-z ]+" required><br><br>
+
+        <label for="departamento">Departamento:</label>
+        <select id="sdepartamento"  class="form-control"  name="departamento" required>
+            <option value="Antioquia">Antioquia</option>
+    <option value="Atlantico">Atlántico</option>
+    <option value="Bogotá D.C">Bogotá D.C</option>
+    <option value="Bolivar">Bolívar</option>
+    <option value="Boyacá">Boyacá</option>
+    <option value="Caldas">Caldas</option>
+    <option value="Caqueta">Caquetá</option>
+    <option value="Cauca">Cauca</option>
+    <option value="Cesar">Cesar</option>
+    <option value="Cordoba">Córdoba</option>
+    <option value="Cundinamarca">Cundinamarca</option>
+    <option value="Chocó">Chocó</option>
+    <option value="Huila">Huila</option>
+    <option value="La Guajira">La Guajira</option>
+    <option value="Magdalena">Magdalena</option>
+    <option value="Meta">Meta</option>
+    <option value="Nariño">Nariño</option>
+    <option value="Norte de Santander">Norte de Santander</option>
+    <option value="Quindio">Quindío</option>
+    <option value="Risaralda">Risaralda</option>
+    <option value="Santander">Santander</option>
+    <option value="Sucre">Sucre</option>
+    <option value="Tolima">Tolima</option>
+    <option value="Valle del Cauca">Valle del Cauca</option>
+    <option value="Arauca">Arauca</option>
+    <option value="Casanare">Casanare</option>
+    <option value="Putumayo">Putumayo</option>
+    <option value="San Andrés">San Andrés</option>
+    <option value="Amazonas">Amazonas</option>
+    <option value="Guainía">Guainía</option>
+    <option value="Guaviare">Guaviare</option>
+    <option value="Vaupes">Vaupés</option>
+    <option value="Vichada">Vichada</option>
+        </select><br><br>
+
+        <label for="municipio">Municipio:</label>
+        <select id="municipio"  class="form-control"  name="municipio" required>
+            <option value="" disabled selected>Seleccione un municipio</option>
+            <option value="Medellín">Medellín</option>
+    <option value="Abejorral">Abejorral</option>
+    <option value="Abriaqui">Abriaqui</option>
+    <option value="Alejandría">Alejandría</option>
+    <option value="Amagá">Amagá</option>
+    <option value="Amalfí">Amalfí</option>
+    <option value="Andes">Andes</option>
+    <option value="Angelópolis">Angelópolis</option>
+    <option value="Angostura">Angostura</option>
+    <option value="Anorí">Anorí</option>
+    <option value="Santafé de Antioquia">Santafé de Antioquia</option>
+    <option value="Anzá">Anzá</option>
+    <option value="Apartadó">Apartadó</option>
+    <option value="Arboletes">Arboletes</option>
+    <option value="Argelia">Argelia</option>
+    <option value="Armenia">Armenia</option>
+    <option value="Barbosa">Barbosa</option>
+    <option value="Belmira">Belmira</option>
+    <option value="Bello">Bello</option>
+    <option value="Betania">Betania</option>
+    <option value="Betulia">Betulia</option>
+    <option value="Ciudad Bolivar">Ciudad Bolivar</option>
+    <option value="Briceño">Briceño</option>
+    <option value="Buriticá">Buriticá</option>
+    <option value="Cáceres">Cáceres</option>
+    <option value="Caicedo">Caicedo</option>
+    <option value="Caldas">Caldas</option>
+    <option value="Campamento">Campamento</option>
+    <option value="Cañas Gordas">Cañas Gordas</option>
+    <option value="Caracolí">Caracolí</option>
+    <option value="Carmanta">Carmanta</option>
+    <option value="Carepa">Carepa</option>
+    <option value="El Carmen de Viboral">El Carmen de Viboral</option>
+    <option value="Carolina">Carolina</option>
+    <option value="Caucasia">Caucasia</option>
+    <option value="Chigorodó">Chigorodó</option>
+    <option value="Cisneros">Cisneros</option>
+    <option value="Cocorná">Cocorná</option>
+    <option value="Concepción">Concepción</option>
+    <option value="Concordia">Concordia</option>
+    <option value="Copa Cabana">Copa Cabana</option>
+    <option value="Dabeiba">Dabeiba</option>
+    <option value="Don Matías">Don Matías</option>
+    <option value="Ebéjico">Ebéjico</option>
+    <option value="El Bagre">El Bagre</option>
+    <option value="Entrerrios">Entrerrios</option>
+    <option value="Envigado">Envigado</option>
+    <option value="Fredonia">Fredonia</option>
+    <option value="Frontino">Frontino</option>
+    <option value="Giraldo">Giraldo</option>
+    <option value="Girardota">Girardota</option>
+    <option value="Gómez Plata">Gómez Plata</option>
+    <option value="Granada">Granada</option>
+    <option value="Guadalupe">Guadalupe</option>
+    <option value="Guarne">Guarne</option>
+    <option value="Guatapé">Guatapé</option>
+    <option value="Heliconia">Heliconia</option>
+    <option value="Hispania">Hispania</option>
+    <option value="Itagui">Itagui</option>
+    <option value="Ituango">Ituango</option>
+    <option value="Jardín">Jardín</option>
+    <option value="Jericó">Jericó</option>
+    <option value="La Ceja">La Ceja</option>
+    <option value="La Estrella">La Estrella</option>
+    <option value="La Pintada">La Pintada</option>
+    <option value="La Unión">La Unión</option>
+    <option value="Liborina">Liborina</option>
+    <option value="Maceo">Maceo</option>
+    <option value="Marinilla">Marinilla</option>
+    <option value="Montebello">Montebello</option>
+    <option value="Murindó">Murindó</option>
+    <option value="Mutatá">Mutatá</option>
+    <option value="Nariño">Nariño</option>
+    <option value="Necoclí">Necoclí</option>
+    <option value="Nechí">Nechí</option>
+    <option value="Olaya">Olaya</option>
+    <option value="Peñol">Peñol</option>
+    <option value="Peque">Peque</option>
+    <option value="Pueblorrico">Pueblorrico</option>
+    <option value="Puerto Berrío">Puerto Berrío</option>
+    <option value="Puerto Nare">Puerto Nare</option>
+    <option value="Puerto Triunfo">Puerto Triunfo</option>
+    <option value="Remedios">Remedios</option>
+    <option value="Retiro">Retiro</option>
+    <option value="Rio Negro">Rio Negro</option>
+    <option value="Sabanalarga">Sabanalarga</option>
+    <option value="Sabaneta">Sabaneta</option>
+    <option value="Salgar">Salgar</option>
+    <option value="San Andrés de Cuerquía">San Andrés de Cuerquía</option>
+    <option value="San Carlos">San Carlos</option>
+    <option value="San Francisco">San Francisco</option>
+    <option value="San Jerónimo">San Jerónimo</option>
+    <option value="San José de la Montaña">San José de la Montaña</option>
+    <option value="San Juan de Urabá">San Juan de Urabá</option>
+    <option value="San Luis">San Luis</option>
+    <option value="San Pedro">San Pedro</option>
+        </select><br><br>
+
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date"  class="form-control"  id="fechaNacimiento" name="fechaNacimiento" required><br><br>
+
+        <label for="salario">Salario:</label>
+        <input type="text"  class="form-control"  id="salario" name="salario" pattern="[0-9]+" required><br><br>
+        <div id="mensajeError"></div>
+    
+
+        <button type="submit" class="btn btn-primary mb-2">GUARDAR</button>
+
+
+  </form>
+
+
+  <tbody id="datost"></tbody>
+
+     
+</div>
+
+<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" >
+        <!--Creo la tabla-->
+        <table class="table table-success table-striped">
+            <!--Ingreso encabezado-->
+            <thead>
+                <!--En la fila 1-->
+                <tr>
+                    <!--Columnas que estan en la fila 1-->
+                    <th>id</th>
+                    <th>Nombre apellido</th>
+                    <th>ciudad </th>
+                    <th>edad</th>
+                    
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>Dilan Bohorquez</td>
+                    <td>Sogamoso</td>
+                    <td>21</td>
+                </tr>
+                <td></td>
+                <td>VAlen mesa</td>
+                <td>boogta</td>
+                <td>20</td>
+                <tr>
+
+                </tr>
+
+            </thead>
+            <tbody id="employ"></tbody>
+        </table>
+       
+    </div>
+
+
+</div>
+</div>
+<H1>Ingrese el id</H1>
+<label > id : </label>
+                <select name="" id="sid" style="width: 200px;">
+                    <option >------</option>
+
+
+  
+
+
+    <script src="js/fullDepartment.js"></script>
+</body>
+</html>
