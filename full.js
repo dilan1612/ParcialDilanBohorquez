@@ -1,6 +1,6 @@
 const xhr = new XMLHttpRequest();
 var bt =document.getElementById("bt1");
-xhr.open("GET","./resources/departments.json",true)
+xhr.open("GET","departments.json",true)
 
 xhr.onreadystatechange = ()=>{
     if( xhr.readyState === 4 ){
